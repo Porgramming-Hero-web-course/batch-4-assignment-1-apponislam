@@ -5,7 +5,7 @@
     "scripts": {
         "build": "tsc",
         "start": "node dist/index.js",
-        "dev": "ts-node-dev --respawn src/problem-4.ts"
+        "dev": "ts-node-dev --respawn src/problem-5.ts"
     },
     "keywords": [],
     "author": "",
