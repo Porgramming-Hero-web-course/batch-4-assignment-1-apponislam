@@ -10,4 +10,4 @@ function removeDuplicates(numbers: number[]): number[] {
     return newArray;
 }
 
-console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5, 1, 6, 8, 9, 9, 9, 10, 10]));
+console.log(removeDuplicates([10, 1, 2, 2, 3, 4, 4, 5, 1, 6, 8, 9, 9, 9, 10, 10]));
