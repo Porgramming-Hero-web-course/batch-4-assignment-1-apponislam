@@ -50,3 +50,19 @@ const employee: EmployeeProfile = {
     role: "Developer",
 };
 ```
+
+<br>
+
+Here, `Worker` combines `Person` and `Employee`, requiring both `name` and `employeeId` properties. Intersection types are ideal for building complex types from simpler ones.
+
+#### Benefits of Intersection Types
+
+-   **Detailed Type Descriptions**: Useful for combining features from different types.
+-   **Ensures Type Completeness**: Makes sure all required properties are present.
+
+### Summary
+
+-   **Union Types** allow a variable to be one of several types, making code flexible.
+-   **Intersection Types** combine multiple types into one, ensuring a variable meets all specified type requirements.
+
+Union and Intersection types are powerful tools in TypeScript that make your code safer, more flexible, and easier to maintain.
